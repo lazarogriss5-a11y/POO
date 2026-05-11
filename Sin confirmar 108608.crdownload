@@ -1,0 +1,49 @@
+class persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+     
+        nombre = (input("Ingresa el nombre: "))
+        edad = (input("Ingresa la edad: "))
+        def mostrar_datos(self):
+         return f"Nombre:{self.nombre}, Edad{self.edad}"
+
+class estudiante:
+    def __init__(self, matricula):
+        self.matricula = matricula
+        
+        matricula = (input("Ingresa la matricula: "))
+        def incribirse(self):
+            return f"Alumno inscrito: {self.matricula}"
+
+class profesor:
+    def __init__(self, especialidad):
+        self.especialidad = especialidad
+        
+        especialidad = (input("Ingresa la especialidad: "))
+        def calificar(self):
+            return f"Especialidad: {self.calificar}"
+
+class curso:
+    def __init__(self, nombre, grupo):
+        self.nombre = nombre
+        self.grupo = grupo
+    
+        nombre = (input("Ingresa el nombre: "))
+        grupo = (input("Ingresa el grupo: "))
+        def agregar(self):
+         return f"Agregar estudiante: {self.agregar}"
+
+class materia:
+    def __init__(self, nombre, clave):
+        self.nombre = nombre 
+        self.clave = clave
+        
+        nombre = (input("Ingresa el nombre: "))
+        clave = (input("Ingresa la clave: "))
+        def mostrar_info(self):
+            return f"Información: {self.mostrar_info}"
+
+print(input("Ingresa el nombre: "))
+def sistema_escolar(self): 
+ print(f"El nombre del estudiante es: {self.nombre}, Edad: {self.edad}, Está inscrito con la matricula: {self.matricula}")

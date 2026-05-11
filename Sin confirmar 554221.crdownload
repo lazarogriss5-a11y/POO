@@ -1,0 +1,6 @@
+class Estudiante:
+ def __init__(self, mostrar_datos):
+   self.datos = mostrar_datos
+
+def profesores (self, id, titulo, nombre):
+ print(f"Nombre: {self.nombre}, Edad: {self.edad},  id: {self.id}, ntelef{self.ntelef}")

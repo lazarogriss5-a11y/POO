@@ -1,0 +1,37 @@
+class persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+        
+def mostrar_datos(self):
+    print(f"Nombre:{self.nombre}, Edad{self.edad}")
+
+class estudiante:
+    def __init__(self, matricula):
+        self.matricula = matricula
+        
+        def incribirse(self):
+            print(f"Alumno inscrito: {self.matricula}")
+
+class profesor:
+    def __init__(self, especialidad):
+        self.especialidad = especialidad
+        
+        def calificar(self):
+            print(f"Especialidad: {self.calificar}")
+
+class curso:
+    def __init__(self, nombre, grupo):
+        self.nombre
+        self.grupo
+        
+    def agregarest(self):
+        print(f"Agregar estudiante: {self.agregarest}")
+
+class materia:
+    def __init__(self, nombre, clave):
+        self.nombre = nombre 
+        self.clave = clave
+        
+        def mostrar_info(self):
+            print(f"Información: {self.mostrar_info}")

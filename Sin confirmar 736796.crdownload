@@ -1,0 +1,66 @@
+class alumno:
+  def __init__(self, nombre):
+   self.nombre = nombre
+
+def mostrar_datos(self):
+ print(f"Nombre: {self.nombre}")
+
+class profesores:
+ def __init__ (self, id):
+  self.id = id
+ 
+ def mostrar_datos(self):
+  print(f"id: {self.id}")
+
+class materias:
+  def  __init__(self,titulo):
+   self.titulo = titulo
+
+  def mostrar_datos(self):
+   print(f"materias: {self.titulo}")
+
+class calificacion:
+ def __init__(self,prom):
+   self.prom = prom
+
+ def mostrar_datos(self):
+  print(f"Calificación: {self.prom}")
+
+class pagos:
+  def __init__(self,nocuenta): 
+   self.nocuenta = nocuenta
+
+  def mostrar_datos(self):
+   print(f"Pago: {self.nocuenta}")
+
+while True:
+  print("1. alumno")
+  print("2. profesores")
+  print("3. materias")
+  print("4. calificacion")
+  print("5. pagos")
+
+  opcion = input("Seleccione una opción: ")
+  if opcion =="1":
+   nombre= str( input("Ingrese el nombre del alumno a registrar"))
+   nombre. ingresar(nombre)
+
+  elif opcion == "2":
+   id = str(input("Ingresa el id del profesor"))
+   id. ingresar(id)
+
+  elif opcion == "3":
+   titulo = str(input("Ingresa el titulo del profesor"))
+   titulo. ingresar(prom)
+
+  elif opcion == "4":
+   prom = float(input("Ingresa el promedio del alumno"))
+   prom. ingresar(prom)
+   
+  elif opcion == "5":
+   nocuenta = int(input("Ingresa el numero de cuenta"))
+   nocuenta. ingresar(nocuenta)
+   break
+  
+  else: 
+    print("Opción no valida")
